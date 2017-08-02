@@ -1,0 +1,8 @@
+Compare and contrast the loops that used a for with those using a while.
+Are there advantages or disadvantages to using either form?
+
+A for loop has advantages when it comes to iterating over a specific amount
+or known value. It has built in iterator variables which is nice.
+
+A while loop can have advantages when the amount of loops is unknown, like when
+letting a user determine when a loop ends.
