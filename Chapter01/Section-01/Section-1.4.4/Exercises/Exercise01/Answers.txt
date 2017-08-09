@@ -1,0 +1,11 @@
+Q: What happens in the program presented in this section if the input values are
+all equal?
+
+A: It will count how ever many you of the one thing you put in, will not display
+until you give end of file command.
+
+
+Q: What if there are no duplicated values?
+
+A: It will list out all items as "x occurs 1 times" until end of file command is
+given.
