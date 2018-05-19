@@ -62,9 +62,7 @@ int main() {
 
     std::cout << "The numbers stored are:" << std::endl;
 
-    const std::string output = vec_to_string(int_store);
-
-    std::cout << output << std::endl;
+    std::cout << vec_to_string(int_store) << std::endl;
 
     return 0;
 }
