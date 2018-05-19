@@ -46,7 +46,7 @@ int main() {
         }
         // Check if it's a valid int
         bool is_valid{true};
-        for (auto ch : input) {
+        for (const char &ch : input) {
             if (!std::isdigit(ch)) {
                 is_valid = false;
             }
@@ -62,7 +62,7 @@ int main() {
 
     std::cout << "The numbers stored are:" << std::endl;
 
-    std::string output = vec_to_string(int_store);
+    const std::string output = vec_to_string(int_store);
 
     std::cout << output << std::endl;
 
