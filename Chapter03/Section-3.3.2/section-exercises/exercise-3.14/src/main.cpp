@@ -8,13 +8,13 @@
 #include <string>
 #include <vector>
 
-std::string vec_to_string(std::vector<int> vec) {
+std::string vec_to_string(const std::vector<int> vec) {
     // Format the vec to a printable format and store in string
     // Beginning of formatted string
     std::string out_string{"[\n  "};
     int cnt{0};
     // Loop through vec, increase cnt or add a new line and space, and reset cnt
-    for (auto num : vec) {
+    for (auto &num : vec) {
         if (cnt < 5) {
             cnt++;
         } else {
