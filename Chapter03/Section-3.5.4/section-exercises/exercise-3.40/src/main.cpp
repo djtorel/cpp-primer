@@ -12,7 +12,7 @@ int main() {
     char str1[]{"Hello, "};
     char str2[]{"World!"};
 
-    char str3[(std::strlen(str1) + 1) + (std::strlen(str2) + 1)];
+    char str3[(std::strlen(str1) + std::strlen(str2)) + 1];
 
     std::strcpy(str3, str1);
     std::strcat(str3, str2);
